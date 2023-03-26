@@ -1,0 +1,31 @@
+package thucpham;
+
+import java.util.Scanner;
+
+public class Menu {
+  
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		boolean cont = true;
+		do {
+			System.out.println("\nChọn chức năng: ");
+			int chon = input.nextInt();
+			switch (chon) {
+			case 1:
+				System.out.println("\nChức năng 1");
+				break;
+			case 2:
+				System.out.println("\nChức năng 2");
+				break;
+			case 3:
+				System.out.println("\nChức năng 3");
+				break;
+			default:
+				System.out.println("...");
+				cont = false;
+				break;
+			}
+		} while (cont);
+	}
+}
+}
