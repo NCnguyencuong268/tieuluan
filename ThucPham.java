@@ -18,8 +18,8 @@ private date nSX, hSD;
 
 public ThucPham(){
 }
-public ThucPham (String tenHang,int maHang, float khoiLuong, double donGia, date nSX, date hSD){
-this.tenHang = ten;
+public ThucPham (String tenHang, int maHang, float khoiLuong, double donGia, date nSX, date hSD){
+this.tenHang = tenHang;
 this.maHang = maHang;
 this.khoiLuong = khoiLuong;
 this.donGia = donGia;
